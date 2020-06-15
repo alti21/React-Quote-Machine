@@ -19,7 +19,7 @@ function QuoteAndAuthor(props) {
                 <button
                     className="m1-3"
                     onClick={() => {
-                        generateQuote(quote),
+                        generateQuote(quote);
                         window.open('https://twitter.com/intent/tweet/?text=' + encodeURIComponent(quote.quote + '--' + quote.author))
                         }
                     }
