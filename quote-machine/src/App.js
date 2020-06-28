@@ -29,7 +29,7 @@ class App extends Component {
   }
 
   sortQuotes(arr) {
-    return arr.sort(function () { return 0.5 - Math.random() });
+    return arr.sort(function () { return 1 - .5 });
   }
 
   render() {
